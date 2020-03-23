@@ -16,10 +16,10 @@ class MyJdbcSink extends RichSinkFunction[SensorReading]{
 
 
   override def open(parameters: Configuration): Unit = {
-    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "123456")
+    conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "123456")
     //定义预编译语句
-    conn.prepareStatement("INSERT INTO sensor_temp(sensor,temperature)VALUES(?,?)")
-    conn.prepareStatement("UPDATE sensor_temp SET temperature = ? WHERE sensor = ?")
+    insertStmt = conn.prepareStatement("INSERT INTO sensor_temp(sensor,temperature)VALUES(?,?)")
+    updateStmt = conn.prepareStatement("UPDATE sensor_temp SET temperature = ? WHERE sensor = ?")
   }
 
   //每条数据来了后调用连接 执行sql
