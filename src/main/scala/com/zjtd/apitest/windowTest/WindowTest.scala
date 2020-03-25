@@ -56,13 +56,13 @@ object WindowTest {
       //      .timeWindow(Time.seconds(15))    // 15秒的滚动窗口
       .timeWindow(Time.seconds(15), Time.seconds(5))    // 15秒的滑动窗口，滑动步长5秒
       //      .reduce( (curMin, newData) => (curMin._1, curMin._2.min(newData._2)) )
-      .reduce( new MyWindowFunction() )
+      .reduce( new MyReduceFunction() )
 
     minTempPerWinStream.print()
     env.execute("window test job")
-
-
-
   }
+
+
+
 
 }
