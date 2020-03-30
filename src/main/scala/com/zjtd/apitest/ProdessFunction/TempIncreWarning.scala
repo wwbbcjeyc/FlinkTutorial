@@ -26,7 +26,7 @@ class TempIncreWarning(interval: Long) extends KeyedProcessFunction[Tuple, Senso
       ctx.timerService().registerProcessingTimeTimer(ts)
       // 保存ts到状态
       curTimerState.update(ts)
-    } else if( value.temperature < lastTemp ){
+    } else if( value.temperature < lastTemp ||  lastTemp == 0.0 ){
       // 如果温度值下降，直接删除定时器
       ctx.timerService().deleteProcessingTimeTimer(curTimerTs)
       // 清空状态

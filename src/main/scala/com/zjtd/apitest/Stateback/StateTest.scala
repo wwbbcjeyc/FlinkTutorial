@@ -2,6 +2,9 @@ package com.zjtd.apitest.Stateback
 
 import com.zjtd.apitest.bean.SensorReading
 import org.apache.flink.api.common.restartstrategy.RestartStrategies
+import org.apache.flink.contrib.streaming.state.RocksDBStateBackend
+import org.apache.flink.runtime.state.filesystem.FsStateBackend
+import org.apache.flink.runtime.state.memory.MemoryStateBackend
 import org.apache.flink.streaming.api.CheckpointingMode
 import org.apache.flink.streaming.api.scala._
 
@@ -12,6 +15,7 @@ object StateTest {
     // 状态后端配置
     //    env.setStateBackend(new FsStateBackend(""))
     //    env.setStateBackend( new RocksDBStateBackend("") )
+
 
     // checkpoint配置
     env.enableCheckpointing(10000L)
@@ -40,7 +44,9 @@ object StateTest {
       .keyBy("id")
       //      .flatMap( new TempChangeWarning(10.0) )
       .flatMapWithState[(String, Double, Double), Double]({
+            //如果没有状态，说明数据没来过，那么就将当前数据温度存入状态
         case (inputData: SensorReading, None) => ( List.empty, Some(inputData.temperature) )
+            //如果有状态，就应该与上次温度做差，大于阀值输出报警
         case (inputData: SensorReading, lastTemp: Some[Double]) => {
           val diff = (inputData.temperature - lastTemp.get).abs
           if( diff > 10.0 ){

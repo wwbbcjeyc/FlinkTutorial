@@ -43,7 +43,7 @@ object TranfromTest {
     val lowTempStream: DataStream[SensorReading] = splitStream.select("lowTemp")
     val allTempStream: DataStream[SensorReading] = splitStream.select("highTemp","lowTemp")
 
-   // lowTempStream.print()
+    //lowTempStream.print()
     //4.合流，connect 连接两条类型不同的流
     val waringStream: DataStream[(String, Double)] = highTempStream
       .map(data => (data.id, data.temperature))
@@ -57,7 +57,7 @@ object TranfromTest {
     //5. 合并两条流：Union
     val unionStream: DataStream[SensorReading] = highTempStream.union(lowTempStream, allTempStream)
 
-    //unionStream.print()
+    unionStream.print()
 
     //6.自定义函数类
     val transformStream1: DataStream[Int] = dataStream.map(new MyMapper)
