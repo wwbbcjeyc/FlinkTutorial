@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c7893f8-7f62-4c31-8fc7-3c06627f165e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/zjtd/apitest/sinkTest/ReadisSinkTest1.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/maven/Repository" />
+        <option name="mavenHome" value="$USER_HOME$/maven" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dG7wD95IyoPCW4FJPlW50oD5qU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zjtd.apitest.sinkTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadisSinkTest1">
+    <configuration name="ProcessFuntionTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtd.apitest.ProdessFunction.ProcessFuntionTest" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjtd.apitest.ProdessFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadisSinkTest1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtd.apitest.sinkTest.ReadisSinkTest1" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjtd.apitest.sinkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadisSinkTest1" />
+        <item itemvalue="Application.ProcessFuntionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c7893f8-7f62-4c31-8fc7-3c06627f165e" name="Default Changelist" comment="" />
+      <created>1592039812976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592039812976</updated>
+      <workItem from="1592039815994" duration="153000" />
+      <workItem from="1592040036808" duration="300000" />
+      <workItem from="1592040440809" duration="1945000" />
+      <workItem from="1592185878770" duration="1636000" />
+      <workItem from="1592189943428" duration="2955000" />
+      <workItem from="1592193857232" duration="140000" />
+      <workItem from="1592305133102" duration="6000" />
+      <workItem from="1592305142680" duration="23000" />
+      <workItem from="1592305422257" duration="74000" />
+      <workItem from="1592388241460" duration="149000" />
+      <workItem from="1592391686333" duration="37000" />
+      <workItem from="1593338832055" duration="3000" />
+      <workItem from="1593341578925" duration="5000" />
+      <workItem from="1594122786258" duration="18000" />
+      <workItem from="1595476161514" duration="3369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595480253058">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595480253058" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1595480183388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595480183388" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1595491336923">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336923" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592042422157" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1595491336922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336922" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592042422156" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1595491336921">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336921" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592042422155" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1595491336923">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336923" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592042422156" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1592041335309">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592041335309" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592041290662" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1592041335308">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592041335308" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1592041290661" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1592041335307">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592041335307" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1592041290661" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1592041335309">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592041335309" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1592041290662" />
+  </component>
+</project>
