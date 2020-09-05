@@ -11,13 +11,15 @@ object KafkaSource {
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
 
     val properties: Properties = new Properties()
-    properties.setProperty("bootstrap.servers", "ckafka.xiaobangtouzi.com:9092")
+    properties.setProperty("bootstrap.servers", "172.16.205.23:9092")
     properties.getProperty("group.id", "consumer-group")
     properties.setProperty("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
     properties.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
     properties.setProperty("auto.offset.reset", "latest")
 
-    val inputStream: DataStream[String] = env.addSource(new FlinkKafkaConsumer011[String]("mysql-220", new SimpleStringSchema(), properties))
+    val consumer: FlinkKafkaConsumer011[String] = new FlinkKafkaConsumer011[String]("ods-o_metis-user_i", new SimpleStringSchema(), properties)
+    consumer.setStartFromTimestamp(1598426340000L)
+    val inputStream: DataStream[String] = env.addSource(consumer)
 
 
     inputStream.print("inputStream:").setParallelism(1)

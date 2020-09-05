@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7893f8-7f62-4c31-8fc7-3c06627f165e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/zjtd/apitest/sinkTest/ReadisSinkTest1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/zjtd/apitest/sourceTest/KafkaSource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/zjtd/apitest/sourceTest/KafkaSource.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,20 @@
       <recent name="com.zjtd.apitest.sinkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadisSinkTest1">
+  <component name="RunManager" selected="Application.KafkaSource">
+    <configuration name="KafkaSource" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtd.apitest.sourceTest.KafkaSource" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjtd.apitest.sourceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProcessFuntionTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zjtd.apitest.ProdessFunction.ProcessFuntionTest" />
       <module name="FlinkTutorial" />
@@ -80,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaSource" />
         <item itemvalue="Application.ReadisSinkTest1" />
         <item itemvalue="Application.ProcessFuntionTest" />
       </list>
@@ -110,6 +124,11 @@
       <workItem from="1593341578925" duration="5000" />
       <workItem from="1594122786258" duration="18000" />
       <workItem from="1595476161514" duration="3369000" />
+      <workItem from="1596178605701" duration="481000" />
+      <workItem from="1596528909685" duration="6000" />
+      <workItem from="1597999089295" duration="35000" />
+      <workItem from="1597999765717" duration="10000" />
+      <workItem from="1598443008322" duration="286000" />
     </task>
     <servers />
   </component>
@@ -125,25 +144,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595480183388" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1595491336923">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1598443294244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336923" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1598443294244" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1596178693292" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592042422157" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1595491336922">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1598443294241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336922" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1598443294241" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1596178693291" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592042422156" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1595491336921">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1598443294240">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336921" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1598443294240" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1596178693290" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592042422155" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1595491336923">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1598443294243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1595491336923" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1598443294243" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1596178693292" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592042422156" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1592041335309">
       <screen x="0" y="0" width="1440" height="900" />
